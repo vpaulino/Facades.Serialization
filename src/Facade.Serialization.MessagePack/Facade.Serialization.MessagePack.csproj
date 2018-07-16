@@ -3,8 +3,8 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>Facade.Serialization.MessagePack</AssemblyName>
-	  <PackageId>Facade.Serialization.MessagePack</PackageId>
-	  <PackageVersion>0.9</PackageVersion>
+	  <PackageId>Facades.Serialization.MessagePack</PackageId>
+	  <PackageVersion>0.5</PackageVersion>
      <RootNamespace>Facades.Serialization.MessagePack</RootNamespace>
 	  <PackageDescription>Facade.Serialization.MessagePack is a Facade over MessagePack-CSharp nuget that enables message pack serialization format. to know more see here: https://github.com/msgpack/msgpack/blob/master/spec.md </PackageDescription>
 	  <PackageTags>dotnet Messagepack</PackageTags>

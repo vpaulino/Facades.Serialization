@@ -1,7 +1,14 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+	  <TargetFramework>netstandard2.0</TargetFramework>
+	  <AssemblyName>Facades.Serialization.Bson</AssemblyName>
+	  <PackageId>Facades.Serialization.Bson</PackageId>
+	  <PackageVersion>0.5</PackageVersion>
+	  <RootNamespace>Facade.Serialization.Bson</RootNamespace>
+	  <PackageDescription>Facades.Serialization.Bson defines a serialization implementation for Bson Protocol based on MongoDb.Bson </PackageDescription>
+	  <PackageTags>dotnet mongodb bson</PackageTags>
+	  <PackageReleaseNotes>In this release its provided serialization and deserialization methods</PackageReleaseNotes>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
