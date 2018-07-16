@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Facade.Serialization.MessagePack</AssemblyName>
+	  <PackageId>Facade.Serialization.MessagePack</PackageId>
+	  <PackageVersion>0.9</PackageVersion>
+     <RootNamespace>Facades.Serialization.MessagePack</RootNamespace>
+	  <PackageDescription>Facade.Serialization.MessagePack is a Facade over MessagePack-CSharp nuget that enables message pack serialization format. to know more see here: https://github.com/msgpack/msgpack/blob/master/spec.md </PackageDescription>
+	  <PackageTags>dotnet Messagepack</PackageTags>
+	  <PackageReleaseNotes>In this release its provided serialization and deserialization and also custom type formatter base class to simplify properties serialization</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MessagePack" Version="1.7.3.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Facade.Serialization\Facade.Serialization.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{343CC578-E635-4337-8B5C-22C917482AF9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{4E646DC5-878E-42CC-A26C-7D95D4A03056}"
+	ProjectSection(SolutionItems) = preProject
+		tests\Directory.Build.props = tests\Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{582AEE35-8867-4828-B313-E35988516513}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		build.cake = build.cake
+		build.ps1 = build.ps1
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade.MessagePack.Tests", "tests\Facade.MessagePack.Tests\Facade.MessagePack.Tests.csproj", "{F2765D6A-31FE-4AF5-9B1D-E364F30D0771}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade.Serialization.Json", "src\Facade.Serialization.Json\Facade.Serialization.Json.csproj", "{2B590422-8074-476F-8772-75C431E97EFF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade.Serialization", "src\Facade.Serialization\Facade.Serialization.csproj", "{BF535EBB-5166-4794-B86F-56346471241B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade.Serialization.MessagePack", "src\Facade.Serialization.MessagePack\Facade.Serialization.MessagePack.csproj", "{23016B40-3A76-41DA-B09E-026D36AB4948}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade.Json.Tests", "tests\Facade.Json.Tests\Facade.Json.Tests.csproj", "{22C13047-9DCB-4A28-B749-17F1262707AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade.Serialization.Bson", "src\Facade.Serialization.Bson\Facade.Serialization.Bson.csproj", "{DEFE54D7-DF1B-4395-8984-2FD6661261F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade.Bson.Tests", "tests\Facade.Bson.Tests\Facade.Bson.Tests.csproj", "{AA7BDAAF-3559-4BCC-9CA1-49686A8A9FCD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2765D6A-31FE-4AF5-9B1D-E364F30D0771}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2765D6A-31FE-4AF5-9B1D-E364F30D0771}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2765D6A-31FE-4AF5-9B1D-E364F30D0771}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2765D6A-31FE-4AF5-9B1D-E364F30D0771}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B590422-8074-476F-8772-75C431E97EFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B590422-8074-476F-8772-75C431E97EFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B590422-8074-476F-8772-75C431E97EFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B590422-8074-476F-8772-75C431E97EFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF535EBB-5166-4794-B86F-56346471241B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF535EBB-5166-4794-B86F-56346471241B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF535EBB-5166-4794-B86F-56346471241B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF535EBB-5166-4794-B86F-56346471241B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23016B40-3A76-41DA-B09E-026D36AB4948}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23016B40-3A76-41DA-B09E-026D36AB4948}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23016B40-3A76-41DA-B09E-026D36AB4948}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23016B40-3A76-41DA-B09E-026D36AB4948}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22C13047-9DCB-4A28-B749-17F1262707AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22C13047-9DCB-4A28-B749-17F1262707AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22C13047-9DCB-4A28-B749-17F1262707AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22C13047-9DCB-4A28-B749-17F1262707AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEFE54D7-DF1B-4395-8984-2FD6661261F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEFE54D7-DF1B-4395-8984-2FD6661261F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEFE54D7-DF1B-4395-8984-2FD6661261F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEFE54D7-DF1B-4395-8984-2FD6661261F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA7BDAAF-3559-4BCC-9CA1-49686A8A9FCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA7BDAAF-3559-4BCC-9CA1-49686A8A9FCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA7BDAAF-3559-4BCC-9CA1-49686A8A9FCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA7BDAAF-3559-4BCC-9CA1-49686A8A9FCD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F2765D6A-31FE-4AF5-9B1D-E364F30D0771} = {4E646DC5-878E-42CC-A26C-7D95D4A03056}
+		{2B590422-8074-476F-8772-75C431E97EFF} = {343CC578-E635-4337-8B5C-22C917482AF9}
+		{BF535EBB-5166-4794-B86F-56346471241B} = {343CC578-E635-4337-8B5C-22C917482AF9}
+		{23016B40-3A76-41DA-B09E-026D36AB4948} = {343CC578-E635-4337-8B5C-22C917482AF9}
+		{22C13047-9DCB-4A28-B749-17F1262707AE} = {4E646DC5-878E-42CC-A26C-7D95D4A03056}
+		{DEFE54D7-DF1B-4395-8984-2FD6661261F0} = {343CC578-E635-4337-8B5C-22C917482AF9}
+		{AA7BDAAF-3559-4BCC-9CA1-49686A8A9FCD} = {4E646DC5-878E-42CC-A26C-7D95D4A03056}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE823623-542B-424B-8F7E-7DC69C14843E}
+	EndGlobalSection
+EndGlobal

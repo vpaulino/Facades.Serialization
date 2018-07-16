@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<AssemblyName>Facade.Serialization</AssemblyName>
+		<PackageId>Facades.Serialization</PackageId>
+		<PackageVersion>0.9</PackageVersion>
+		<RootNamespace>Facade.Serialization</RootNamespace>
+		<PackageDescription>Facade.Serialization defines the contract for serialization for all facades over serialization protocols With a common interface IoC gets easy to implement and evolve </PackageDescription>
+		<PackageTags>dotnet newtonsoft</PackageTags>
+		<PackageReleaseNotes>In this release its provided serialization and deserialization methods</PackageReleaseNotes>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+	  <LangVersion>7.2</LangVersion>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+	  <LangVersion>7.2</LangVersion>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="System.Memory" Version="4.5.1" />
+	</ItemGroup>
+</Project>

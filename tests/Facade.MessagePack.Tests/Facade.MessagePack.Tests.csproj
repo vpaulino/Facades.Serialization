@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net462;netcoreapp2.1</TargetFrameworks>
+		<RuntimeFrameworkVersion>2.1</RuntimeFrameworkVersion>
+
+		<IsPackable>false</IsPackable>
+	</PropertyGroup>
+
+
+	<ItemGroup>
+    <PackageReference Include="MessagePack" Version="1.7.3.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Facade.Serialization.MessagePack\Facade.Serialization.MessagePack.csproj" />
+  </ItemGroup>
+
+</Project>

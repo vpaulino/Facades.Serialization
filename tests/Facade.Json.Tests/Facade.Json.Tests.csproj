@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net462;netcoreapp2.1</TargetFrameworks>
+		<RuntimeFrameworkVersion>2.1</RuntimeFrameworkVersion>
+
+		<IsPackable>false</IsPackable>
+	</PropertyGroup>
+
+
+	<ItemGroup>
+    <ProjectReference Include="..\..\src\Facade.Serialization.Json\Facade.Serialization.Json.csproj" />
+  </ItemGroup>
+
+</Project>
